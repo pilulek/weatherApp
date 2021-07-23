@@ -8,49 +8,52 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" pickOnBounds="false" prefHeight="472.0" prefWidth="318.0" style="-fx-background-color: gray;" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" pickOnBounds="false" prefHeight="472.0" prefWidth="318.0" style="-fx-background-color: #f3eec3;" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
    <children>
-      <AnchorPane prefHeight="65.0" prefWidth="318.0" style="-fx-background-color: black;">
+      <AnchorPane prefHeight="65.0" prefWidth="318.0" style="-fx-background-color: #454545;">
          <children>
-            <Text fill="#d5d3d7" layoutX="31.0" layoutY="42.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ПРОГНОЗ ПОГОДЫ" textAlignment="CENTER" wrappingWidth="255.20441436767578">
+            <Text fill="#f1fffa" layoutX="31.0" layoutY="42.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ПРОГНОЗ ПОГОДЫ" textAlignment="CENTER" wrappingWidth="255.20441436767578">
                <font>
                   <Font name="System Bold" size="25.0" />
                </font>
             </Text>
          </children>
       </AnchorPane>
-      <TextField fx:id="city" alignment="TOP_CENTER" focusTraversable="false" layoutX="56.0" layoutY="92.0" prefHeight="26.0" prefWidth="205.0" promptText="ВВЕДИТЕ ГОРОД" style="-fx-border-radius: 7px; -fx-border-color: red; -fx-background-color: #333; -fx-background-color: gray;">
+      <TextField fx:id="city" alignment="TOP_CENTER" focusTraversable="false" layoutX="56.0" layoutY="92.0" prefHeight="26.0" prefWidth="205.0" promptText="ВВЕДИТЕ ГОРОД" style="-fx-border-radius: 7px; -fx-border-color: #785964; -fx-background-color: #fffae5;">
          <font>
             <Font name="System Bold" size="17.0" />
          </font>
       </TextField>
-      <Button fx:id="getData" layoutX="99.0" layoutY="137.0" mnemonicParsing="false" style="-fx-background-color: gray;" text="УЗНАТЬ ПОГОДУ" textAlignment="CENTER" />
-      <Text fx:id="info" fill="#8f0707d6" layoutX="14.0" layoutY="219.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ИНФОРМАЦИЯ" textAlignment="CENTER" wrappingWidth="205.0">
+      <Button fx:id="getData" layoutX="99.0" layoutY="137.0" mnemonicParsing="false" style="-fx-background-color: #fffae5; -fx-border-color: #785964;" text="УЗНАТЬ ПОГОДУ" textAlignment="CENTER" textFill="#b53a53e5">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <Text fx:id="info" fill="#b53a53e0" layoutX="14.0" layoutY="219.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ИНФОРМАЦИЯ" textAlignment="CENTER" wrappingWidth="205.0">
          <font>
             <Font name="System Bold" size="25.0" />
          </font>
       </Text>
-      <Text fx:id="temp_info" fill="#e4e1e1" layoutX="31.0" layoutY="282.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ТЕМПЕРАТУРА:" wrappingWidth="255.20441436767578">
+      <Text fx:id="temp_info" fill="#454545" layoutX="31.0" layoutY="282.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ТЕМПЕРАТУРА:" wrappingWidth="255.20441436767578">
          <font>
             <Font name="System Bold" size="19.0" />
          </font>
       </Text>
-      <Text fx:id="temp_feels" fill="#e4e1e1" layoutX="32.0" layoutY="320.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ОЩУЩАЕТСЯ:" wrappingWidth="255.20441436767578">
+      <Text fx:id="temp_feels" fill="#454545" layoutX="32.0" layoutY="320.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ОЩУЩАЕТСЯ:" wrappingWidth="255.20441436767578">
          <font>
             <Font name="System Bold" size="19.0" />
          </font>
       </Text>
-      <Text fx:id="temp_max" fill="#e4e1e1" layoutX="31.0" layoutY="357.0" strokeType="OUTSIDE" strokeWidth="0.0" text="МАКСИМУМ:" wrappingWidth="255.20441436767578">
+      <Text fx:id="temp_max" fill="#454545" layoutX="31.0" layoutY="357.0" strokeType="OUTSIDE" strokeWidth="0.0" text="МАКСИМУМ:" wrappingWidth="255.20441436767578">
          <font>
             <Font name="System Bold" size="19.0" />
          </font>
       </Text>
-      <Text fx:id="temp_min" fill="#e4e1e1" layoutX="31.0" layoutY="392.0" strokeType="OUTSIDE" strokeWidth="0.0" text="МИНИМУМ:" wrappingWidth="255.20441436767578">
+      <Text fx:id="temp_min" fill="#454545" layoutX="31.0" layoutY="392.0" strokeType="OUTSIDE" strokeWidth="0.0" text="МИНИМУМ:" wrappingWidth="255.20441436767578">
          <font>
             <Font name="System Bold" size="19.0" />
          </font>
       </Text>
-      <Text fx:id="pressure" fill="#e4e1e1" layoutX="31.0" layoutY="426.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ДАВЛЕНИЕ:" wrappingWidth="255.20441436767578">
+      <Text fx:id="pressure" fill="#454545" layoutX="31.0" layoutY="426.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ДАВЛЕНИЕ:" wrappingWidth="255.20441436767578">
          <font>
             <Font name="System Bold" size="19.0" />
          </font>
